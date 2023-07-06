@@ -6,10 +6,33 @@
 -->
 <html>
 	<head>
-		<title>Editorial by HTML5 UP</title>
+		<title>Merlinkim's blog</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script type="module">
+		  // Import the functions you need from the SDKs you need
+			import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
+			import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-analytics.js";
+			// TODO: Add SDKs for Firebase products that you want to use
+			// https://firebase.google.com/docs/web/setup#available-libraries
+
+			// Your web app's Firebase configuration
+			// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+			const firebaseConfig = {
+				apiKey: "AIzaSyCt0q4nlc-ekF3dvv5UAS8QyK-6fPiDH-U",
+				authDomain: "merlin-blog-fde3c.firebaseapp.com",
+				projectId: "merlin-blog-fde3c",
+				storageBucket: "merlin-blog-fde3c.appspot.com",
+				messagingSenderId: "590119559549",
+				appId: "1:590119559549:web:e92c7d85966e18b78eac14",
+				measurementId: "G-X2MQR4XPP2"
+			};
+
+			// Initialize Firebase
+			const app = initializeApp(firebaseConfig);
+			const analytics = getAnalytics(app);
+		</script>
 	</head>
 	<body class="is-preload">
 
@@ -36,13 +59,14 @@
 								<section id="banner">
 									<div class="content">
 										<header>
-											<h1>Hi, I’m Editorial<br />
-											by HTML5 UP</h1>
-											<p>A free and fully responsive site template</p>
+											<h1>Inseong Kim<br />
+											Data and AI</h1>
+											<p>경력</p>
 										</header>
-										<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.</p>
+										<p> ~2023.03 항해사<br />
+										2023.03 ~ now play data MLops track </p>
 										<ul class="actions">
-											<li><a href="#" class="button big">Learn More</a></li>
+											<li><a href="#" class="button big">Detail profile</a></li>
 										</ul>
 									</div>
 									<span class="image object">
@@ -53,7 +77,7 @@
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>Erat lacinia</h2>
+										<h2>Development</h2>
 									</header>
 									<div class="features">
 										<article>

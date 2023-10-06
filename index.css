@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+}
+.first-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 20px;
+}
+.logo {
+	align-items: start;
+	font-size: 30px;
+}
+.logo a {
+	text-decoration-line: none;
+	color: black;
+}
+.soical-icons-group {
+	align-items: flex-end;
+	margin-right: 10px;
+
+}
+.soical-icon {
+	margin: 0 5px 0 5px;
+}
+main {
+	display: flex;
+
+}
+.block {
+	width: 11.5%;
+	border-color: black;
+	border: 2px solid;
+}
+.blog-content-head {
+	font-size: 30px;
+	border: 1px solid black;
+	padding: 20px;
+}
+.blog-content {
+	align-content: center;
+	width: 54%;
+	border-color: black;
+	border: 1px solid black;
+	padding: 15px;
+}
+.blog-content-nav{
+	padding: 15px;
+}
+.blog-content-nav a{
+	text-decoration-line: none;
+	color: black;
+	padding: 0 10px 0 10px;
+}
+.blog-content-flex{
+	display: flex;
+	flex-direction: column;
+}
+.blog-content-inside {
+	display: flex;
+	border: 1px solid black;
+	justify-content: space-between;
+	padding: 30px 20px 30px 20px;
+}
+.blog-content-inside-detail .tag {
+	border: 0.5px solid black;
+	margin: 22px 0 0 0 ;
+}
+.blog-content-inside-detail h4 {
+	font-size: 23px;
+}
+.blog-content-inside-detail p {
+	font-size: 16px;
+}
+.blog-content-inside-pic{
+	width: 112px;
+	height: 112px;
+	border: 1px solid black;
+}
+.profile {
+	display: flex;
+	flex-direction: column;
+	width: 32.5%;
+	border: 2px solid black;
+	padding: 30px;
+}
+footer {
+	display: flex;
+	justify-content: center;
+}

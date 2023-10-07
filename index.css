@@ -70,8 +70,13 @@ main {
 	padding: 30px 80px 30px 20px;
 }
 .blog-content-inside-detail .tag {
+	display: inline-block;
+	background-color: gray;
 	border: 0.5px solid black;
+	border-radius: 20%;
 	margin: 22px 0 0 0 ;
+	padding: 2px 4px 2px 4px;
+
 }
 .blog-content-inside-detail h4 {
 	font-size: 23px;
@@ -84,11 +89,26 @@ main {
 	height: 112px;
 	border: 1px solid black;
 }
+.profile_link {
+	text-decoration-line: none;
+	color: black;
+}
 .profile {
 	display: flex;
 	flex-direction: column;
 	width: 32.5%;
 	padding: 30px;
+
+}
+.profile-photo img{
+	border-radius: 50%;
+}
+.profile-content {
+	width: 300px;
+}
+.name {
+	padding: 30px 0 0 0;
+	width: 300px;
 }
 footer {
 	display: flex;

@@ -3,12 +3,13 @@
 }
 header {
 	border-bottom: 1px solid rgba(0, 0, 0, .3);
+	height: 50px;
 }
 .first-header {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin: 20px;
+	margin: 15px;
 }
 .logo {
 	align-items: start;
@@ -20,7 +21,7 @@ header {
 }
 .soical-icons-group {
 	align-items: flex-end;
-	padding: 10px 0 0 0;
+	padding: 2px 0 0 0;
 	margin-right: 10px;
 
 }
@@ -99,7 +100,7 @@ main {
 	flex-direction: column;
 	width: 32.5%;
 	padding: 30px;
-
+	position: fixed;
 }
 .profile-photo img{
 	border-radius: 50%;
@@ -115,4 +116,5 @@ footer {
 	display: flex;
 	justify-content: center;
 }
+/* 프로필 부분에 스크롤 없이 고정 스타일 적용 */
 

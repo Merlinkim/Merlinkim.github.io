@@ -2,7 +2,8 @@
 	margin: 0;
 }
 header {
-	border-bottom: 0.25px solid gray;
+	border-bottom: 1px solid rgba(0, 0, 0, .3);
+	height: 50px;
 }
 .first-header {
 	display: flex;
@@ -12,7 +13,7 @@ header {
 }
 .logo {
 	align-items: start;
-	font-size: 30px;
+	font-size: 40px;
 }
 .logo a {
 	text-decoration-line: none;
@@ -20,6 +21,7 @@ header {
 }
 .soical-icons-group {
 	align-items: flex-end;
+	padding: 2px 0 0 0;
 	margin-right: 10px;
 
 }
@@ -31,7 +33,6 @@ main {
 	flex-direction: column;
 	justify-content: center;
 	margin: 50px 25% 0 25%;
-	border: 1px solid black;
 }
 .title h1 {
 	font-size: 60px;

@@ -1,6 +1,9 @@
 * {
 	margin: 0;
 }
+header {
+	border-bottom: 0.25px solid gray;
+}
 .first-header {
 	display: flex;
 	flex-direction: row;
@@ -56,11 +59,15 @@ main {
 	display: flex;
 	flex-direction: column;
 }
+.blog-content-flex a {
+	text-decoration-line: none;
+	color: black;
+}
 .blog-content-inside {
 	display: flex;
 	border: 1px solid black;
 	justify-content: space-between;
-	padding: 30px 20px 30px 20px;
+	padding: 30px 80px 30px 20px;
 }
 .blog-content-inside-detail .tag {
 	border: 0.5px solid black;

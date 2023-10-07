@@ -2,7 +2,7 @@
 	margin: 0;
 }
 header {
-	border-bottom: 0.25px solid gray;
+	border-bottom: 1px solid rgba(0, 0, 0, .3);
 }
 .first-header {
 	display: flex;
@@ -33,22 +33,22 @@ main {
 .block {
 	width: 11.5%;
 	border-color: black;
-	border: 2px solid;
 }
 .blog-content-head {
 	font-size: 30px;
-	border: 1px solid black;
 	padding: 20px;
 }
 .blog-content {
 	align-content: center;
 	width: 54%;
 	border-color: black;
-	border: 1px solid black;
+	border-left: 1px solid rgba(0, 0, 0, .3);
+	border-right: 1px solid rgba(0, 0, 0, .3);
 	padding: 15px;
 }
 .blog-content-nav{
 	padding: 15px;
+	border-bottom: 1px solid rgba(0, 0, 0, .3);
 }
 .blog-content-nav a{
 	text-decoration-line: none;
@@ -65,7 +65,7 @@ main {
 }
 .blog-content-inside {
 	display: flex;
-	border: 1px solid black;
+	border-bottom: 1px solid rgba(0, 0, 0, .3);
 	justify-content: space-between;
 	padding: 30px 80px 30px 20px;
 }
@@ -88,7 +88,6 @@ main {
 	display: flex;
 	flex-direction: column;
 	width: 32.5%;
-	border: 2px solid black;
 	padding: 30px;
 }
 footer {

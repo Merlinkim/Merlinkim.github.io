@@ -1,0 +1,96 @@
+{
+  "pageTitle": "Inseong Kim | Maritime Deck Officer",
+  "name": "Inseong Kim (김인성)",
+  "role": "Maritime Deck Officer · Korea / Worldwide · Offshore & DP Track (Target)",
+
+  "meta": [
+    { "label": "Email", "value": "your.email@example.com" },
+    { "label": "Phone", "value": "+82-10-0000-0000" },
+    { "label": "Location", "value": "Incheon, KR" },
+    { "label": "English", "value": "Working Proficiency (SMCP)" }
+  ],
+
+  "links": [
+    { "text": "Print / Save as PDF", "type": "print", "primary": true },
+    { "text": "GitHub (merlinkim)", "href": "https://github.com/merlinkim" },
+    { "text": "LinkedIn (optional)", "href": "#" }
+  ],
+
+  "summaryHint": "3–5줄로 톤수/항로/당직/안전/SMS 중심 요약",
+  "summaryTitle": "Summary",
+  "summary": [
+    "Deck Officer with experience in coastal operations and watchkeeping; strong focus on safe navigation and SMS/ISM compliance.",
+    "Hands-on with bridge equipment and documentation; comfortable with structured reporting and incident prevention.",
+    "Actively building data/automation projects (Python, WebSocket, DB) to improve operational visibility and decision-making."
+  ],
+
+  "seaHint": "직책/기간/선박/업무/성과를 명확히",
+  "seaService": [
+    {
+      "period": "YYYY.MM – YYYY.MM",
+      "vessel": "미래9호",
+      "vesselSub": "~5,000 GT · 2 engines / 2 propellers",
+      "rank": "1/O (First Officer)",
+      "bullets": [
+        "Bridge watchkeeping, passage planning, voyage reporting, and safety management routines.",
+        "Port operations support; coordination with master/engine department for safe maneuvering.",
+        "Highlight: PSC/감사 대응, 사고/준사고 0, 교육 주도 등"
+      ]
+    }
+  ],
+
+  "projectHint": "문제-해결-기술-결과 4요소로 짧게",
+  "projects": [
+    {
+      "name": "Market Viewer (Upbit WebSocket · Data Ingestion)",
+      "sub": "Real-time BTC/KRW stream → storage (SQLite/Postgres planned) → dashboard planned",
+      "year": "2025",
+      "bullets": [
+        "Implemented resilient WebSocket client with reconnect/backoff for real-time market data ingestion.",
+        "Designed storage layer and schema to support downstream analytics (OHLCV aggregation planned).",
+        "Tech: Python 3.12, uv, asyncio, websockets, SQLite (Postgres roadmap)."
+      ],
+      "linkText": "Repo",
+      "href": "#"
+    }
+  ],
+
+  "skills": [
+    "Watchkeeping",
+    "Passage Planning",
+    "Bridge Resource Management",
+    "SMS / ISM",
+    "Safety Drills",
+    "Port Operations",
+    "Reporting & Documentation",
+    "Python Automation"
+  ],
+
+  "certificates": [
+    { "k": "Certificate of Competency", "v": "(예: CoC Deck Officer Class 3 → upgrade plan Class 2)" },
+    { "k": "STCW", "v": "(예: Basic Safety, Advanced Firefighting, PSCRB, Medical, etc.)" },
+    { "k": "GMDSS", "v": "(예: GOC / ROC)" },
+    { "k": "DP Track (Optional)", "v": "(예: DP Induction planned / Logbook target / JRDPO roadmap)" }
+  ],
+
+  "education": [
+    {
+      "name": "(School / Training Institute)",
+      "sub": "(Major / Program)",
+      "year": "YYYY",
+      "bullets": ["(Relevant courses: SMCP, navigation, safety management, etc.)"]
+    }
+  ],
+
+  "highlightsHint": "짧은 강점/성과 3~5개",
+  "highlights": [
+    "(예: 사고/준사고 0, 안전 감사 대응 경험)",
+    "(예: 당직/항해/문서 업무 표준화)",
+    "(예: 영어 SMCP 기반 커뮤니케이션)",
+    "(예: 데이터/자동화 프로젝트로 문제 해결)"
+  ],
+
+  "pdfHint": "루트에 resume.pdf 올리고 파일명만 맞추면 됩니다.",
+  "pdfHref": "./resume.pdf",
+  "footerName": "Inseong Kim"
+}

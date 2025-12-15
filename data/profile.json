@@ -1,11 +1,11 @@
 {
   "pageTitle": "Inseong Kim | Maritime Deck Officer",
   "name": "Inseong Kim (김인성)",
-  "role": "Maritime Deck Officer · Korea / Worldwide · Offshore & DP Track (Target)",
+  "role": "Maritime Deck Officer · Korea / Worldwide ",
 
   "meta": [
-    { "label": "Email", "value": "your.email@example.com" },
-    { "label": "Phone", "value": "+82-10-0000-0000" },
+    { "label": "Email", "value": "kisx97@icloud.com" },
+    { "label": "Phone", "value": "+82-10-4055-5889" },
     { "label": "Location", "value": "Incheon, KR" },
     { "label": "English", "value": "Working Proficiency (SMCP)" }
   ],
@@ -27,14 +27,15 @@
   "seaHint": "직책/기간/선박/업무/성과를 명확히",
   "seaService": [
     {
-      "period": "YYYY.MM – YYYY.MM",
+      "period": "2021.12 – now",
       "vessel": "미래9호",
-      "vesselSub": "~5,000 GT · 2 engines / 2 propellers",
-      "rank": "1/O (First Officer)",
+      "vesselSub": "~4,500 GT · 2 engines / 2 propellers",
+      "rank": "C/O (Chief Officer)",
       "bullets": [
-        "Bridge watchkeeping, passage planning, voyage reporting, and safety management routines.",
+        "I joined the vessel as a Second Officer and was promoted to Chief Officer in April 2025 in recognition of my experience and capabilities.",
+        "“Experienced in oil spills, personal injury incidents, chemical leaks, and fire emergencies, with the ability to respond calmly and effectively under pressure.”",
         "Port operations support; coordination with master/engine department for safe maneuvering.",
-        "Highlight: PSC/감사 대응, 사고/준사고 0, 교육 주도 등"
+        "Highlight: Experienced in the carriage of high-explosive dangerous goods, handled oil spill, "
       ]
     }
   ],
